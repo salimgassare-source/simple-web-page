@@ -1,0 +1,23 @@
+body{
+    font-family: Arial;
+    margin:40px;
+}
+
+textarea{
+    width:400px;
+    height:120px;
+}
+
+input{
+    width:400px;
+}
+
+.post{
+    border:1px solid gray;
+    padding:10px;
+    margin-top:20px;
+}
+
+button{
+    margin-right:10px;
+}
