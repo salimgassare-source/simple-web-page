@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blogging Platform</title>
+    <link rel="stylesheet" href="frontEnd.css">
+</head>
+<body>
+<div class="arena">
+    <h1>My Blogging Platform</h1>
+</div>
+
+
+<!-- ===================== -->
+<!-- AUTH SECTION -->
+<!-- ===================== -->
+<div class="Register">
+    <h2>Authentication</h2>
+    <p>Please put your username and password and press <b>signup</b> if you dont have an 
+    account and you are registering for the first time <br><br>
+    if you are already registered and have an active account, put your 
+    username and password and press <b>login</b> </p>
+
+    <input id="username" placeholder="Username" style="width: 500px;">
+    <input id="password" type="password" placeholder="Password" style="width: 500px;">
+
+    <button onclick="signup()">Signup</button>
+    <button onclick="login()">Login</button>
+</div>
+
+
+<!-- ===================== -->
+<!-- BLOG FORM -->
+<!-- ===================== -->
+<div class="posts">
+    <h2>Create / Edit Post</h2>
+
+    <div class="post-form">
+        <input id="title" placeholder="Post Title" style="width: 600px;">
+        <textarea id="content" placeholder="Write your blog here" style="width: 600px;"></textarea>
+        <button onclick="addOrUpdatePost()">Publish</button>
+    </div>
+</div>
+
+
+<!-- ===================== -->
+<!-- POSTS DISPLAY -->
+<!-- ===================== -->
+<div class="displays">
+    <h2>Blog Posts</h2>
+
+    <div id="posts"></div>
+</div>
+
+
+<!-- ===================== -->
+<!-- SCRIPTS -->
+<!-- ===================== -->
+<script src="frontEnd.js"></script>
+
+</body>
+</html>
